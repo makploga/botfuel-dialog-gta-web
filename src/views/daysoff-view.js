@@ -24,7 +24,7 @@ class DaysoffView extends PromptView {
       return [new BotTextMessage(`Combien de jours voulez vous ? ${days} demandé mais vous ne pouvez prendre que 17 jours de ${daysofftype}`)];
     }
 
-    return [new BotTextMessage(`${days} jour c'est un peut beaucoup non.`)];
+    return [new BotTextMessage(`${days} jour c'est un peu beaucoup non.`)];
   }
 }
 
