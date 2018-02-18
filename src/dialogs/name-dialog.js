@@ -6,7 +6,7 @@ Name.params = {
   namespace: 'name',
   entities: {
     name: {
-      dim: 'handle',
+      dim: 'hashtag',
     },
   },
 };

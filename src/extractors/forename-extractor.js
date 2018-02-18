@@ -3,7 +3,7 @@ const { WsExtractor } = require('botfuel-dialog');
 class NameExtractor extends WsExtractor {}
 
 NameExtractor.params = {
-  dimensions: ['handle'],
+  dimensions: ['hashtag'],
 };
 
 module.exports = NameExtractor;
